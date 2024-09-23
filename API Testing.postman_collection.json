@@ -1,0 +1,462 @@
+{
+	"info": {
+		"_postman_id": "72bba28e-e497-4e57-b6b4-7a14356c9f3b",
+		"name": "API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37945275"
+	},
+	"item": [
+		{
+			"name": "TC_01",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [1, 2, 3, 4, 5] \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_02",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [1, 2, 3, 4, 5] \r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_03",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "thisiswrongtoken",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [1, 2, 3, 4, 5] \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_04",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [] \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_05",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [1]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_06",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [\"String\"] \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_07",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [1, 3, 3, 5, 5] \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_08",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [-1, -2, -3, -4, -5] \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_09",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [0, 0, 0, 0, 0] \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_10",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"arr\": [1.1, 1.2, 1.3, 1.4, 1.5] \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_11",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qewysddiwuewnqweiwemwdowemew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\t{\r\n\t  \"arr\": [1, 2, 3, 1.4, 1.5] \r\n\t}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-15-207-3-97.ap-south-1.compute.amazonaws.com:3000/second-largest",
+					"protocol": "http",
+					"host": [
+						"ec2-15-207-3-97",
+						"ap-south-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"second-largest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
